@@ -10,7 +10,7 @@ import {
   Search,
   X
 } from 'lucide-react';
-import { contact, gallery, photo, socialPosts } from './data';
+import { contact, gallery, photo, photoSrcSet, socialPosts } from './data';
 import {
   filterMenuItems,
   formatMenuPrice,
@@ -19,18 +19,29 @@ import {
 } from './menu-data';
 
 function Image({ src, alt, ...props }) {
-  const source = src.startsWith('/images/') ? src : photo(src, props.width || 1000);
+  const isLocal = src.startsWith('/images/');
+  const source = isLocal ? src : photo(src, 960);
+  const sizes = props.sizes || (props.className === 'hero-image'
+    ? '100vw'
+    : '(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 800px');
+  const loading = props.loading || (props.fetchPriority === 'high' ? 'eager' : 'lazy');
 
   return (
     <img
       src={source}
+      srcSet={isLocal ? undefined : photoSrcSet(src)}
+      sizes={isLocal ? undefined : sizes}
       alt={alt}
       width={props.width || 1200}
       height={props.height || 900}
+      loading={loading}
+      decoding="async"
       onError={event => {
         const image = event.currentTarget;
         if (image.dataset.fallbackApplied) return;
         image.dataset.fallbackApplied = 'true';
+        image.removeAttribute('srcset');
+        image.removeAttribute('sizes');
         image.src = '/images/image-unavailable.svg';
       }}
       {...props}

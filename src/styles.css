@@ -840,24 +840,31 @@ a:focus-visible,button:focus-visible {
     padding:35px 7% 18px
   }
   .footer-top {
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:24px 8px
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:18px
   }
   .footer-top>p {
-    font-size:14px
+    font-size:15px;
+    margin:0
   }
   .footer-links {
-    grid-column:1 / span 2;
-    flex-wrap:wrap;
-    gap:15px
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    width:100%;
+    gap:8px 14px;
+    font-size:12px
   }
   .footer-bottom {
-    flex-wrap:wrap;
-    line-height:1.5
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+    line-height:1.6;
+    font-size:10px
   }
   .footer-bottom span:nth-child(2) {
-    order:3;
     width:100%
   }
 }
@@ -883,8 +890,15 @@ a:focus-visible,button:focus-visible {
   .gallery-grid {
     grid-template-rows:170px 145px 145px
   }
+  .footer {
+    padding-right:6%;
+    padding-left:6%
+  }
+  .footer-links {
+    grid-template-columns:repeat(2,minmax(0,1fr))
+  }
   .footer-bottom {
-    font-size:7px
+    font-size:10px
   }
 }
 @media(prefers-reduced-motion:reduce) {

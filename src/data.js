@@ -47,4 +47,8 @@ export const socialPosts = [
   }
 ];
 
-export const photo = (id, width = 900) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=82`;
+export const photo = (id, width = 960) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=76`;
+
+export const photoSrcSet = id => [480, 720, 960, 1280, 1600, 2000]
+  .map(width => `${photo(id, width)} ${width}w`)
+  .join(', ');
