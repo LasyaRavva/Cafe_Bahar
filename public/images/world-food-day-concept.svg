@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">World Food Day concept artwork</title>
+  <desc id="desc">Illustrative green poster with a shared bowl motif and World Food Day lettering.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#527c32"/><stop offset="1" stop-color="#102d1b"/></radialGradient>
+    <linearGradient id="bowl" x2="0" y2="1"><stop stop-color="#d5a15a"/><stop offset="1" stop-color="#7f3e1d"/></linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#glow)"/>
+  <g fill="#9bb566" opacity=".55"><circle cx="95" cy="200" r="22"/><circle cx="800" cy="280" r="35"/><circle cx="140" cy="800" r="30"/><circle cx="760" cy="850" r="19"/></g>
+  <text x="450" y="145" text-anchor="middle" fill="#f3d48c" font-family="Arial,sans-serif" font-size="28" letter-spacing="9">A CONCEPT POST</text>
+  <text x="450" y="255" text-anchor="middle" fill="#fff8e8" font-family="Georgia,serif" font-size="62">World Food Day</text>
+  <text x="450" y="305" text-anchor="middle" fill="#d7e4c2" font-family="Arial,sans-serif" font-size="22" letter-spacing="4">GOOD FOOD · SHARED MOMENTS</text>
+  <ellipse cx="450" cy="660" rx="250" ry="198" fill="#1a2419" opacity=".55"/>
+  <ellipse cx="450" cy="615" rx="228" ry="166" fill="url(#bowl)"/>
+  <ellipse cx="450" cy="582" rx="204" ry="125" fill="#f0d189"/>
+  <g fill="#a64c25"><ellipse cx="355" cy="565" rx="31" ry="22"/><ellipse cx="480" cy="525" rx="35" ry="24"/><ellipse cx="540" cy="610" rx="38" ry="25"/><ellipse cx="398" cy="645" rx="37" ry="23"/></g>
+  <g fill="#e8a844"><circle cx="322" cy="590" r="8"/><circle cx="435" cy="550" r="9"/><circle cx="570" cy="565" r="7"/><circle cx="470" cy="660" r="9"/><circle cx="360" cy="620" r="7"/><circle cx="525" cy="675" r="8"/></g>
+  <g fill="#6b873d"><ellipse cx="385" cy="512" rx="11" ry="26" transform="rotate(-42 385 512)"/><ellipse cx="517" cy="565" rx="10" ry="28" transform="rotate(35 517 565)"/><ellipse cx="435" cy="690" rx="10" ry="25" transform="rotate(-15 435 690)"/></g>
+  <path d="M235 830h430" stroke="#d5a15a" stroke-width="2"/>
+  <text x="450" y="900" text-anchor="middle" fill="#fff8e8" font-family="Georgia,serif" font-size="30">A table is better together.</text>
+  <text x="450" y="975" text-anchor="middle" fill="#d9c6a2" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">INDEPENDENT WEBSITE CONCEPT</text>
+</svg>

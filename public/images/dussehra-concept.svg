@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Dussehra greeting concept artwork</title>
+  <desc id="desc">Illustrative burgundy and amber festival poster with a lamp and ornamental arch.</desc>
+  <defs>
+    <linearGradient id="night" x2="0" y2="1"><stop stop-color="#291016"/><stop offset=".65" stop-color="#651c20"/><stop offset="1" stop-color="#a34e26"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#ffd67b" stop-opacity=".9"/><stop offset="1" stop-color="#f9a33d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#night)"/>
+  <circle cx="450" cy="570" r="340" fill="url(#light)"/>
+  <path d="M130 795V475a320 320 0 0 1 640 0v320M185 795V485a265 265 0 0 1 530 0v310" fill="none" stroke="#e5ad59" stroke-opacity=".65" stroke-width="3"/>
+  <g fill="#f5c56d" opacity=".75"><circle cx="190" cy="245" r="5"/><circle cx="710" cy="300" r="6"/><circle cx="265" cy="390" r="4"/><circle cx="640" cy="420" r="5"/><circle cx="320" cy="245" r="3"/><circle cx="590" cy="215" r="4"/></g>
+  <text x="450" y="150" text-anchor="middle" fill="#f4c979" font-family="Arial,sans-serif" font-size="26" letter-spacing="8">A CONCEPT GREETING</text>
+  <text x="450" y="275" text-anchor="middle" fill="#fff3df" font-family="Georgia,serif" font-size="76">Dussehra</text>
+  <text x="450" y="330" text-anchor="middle" fill="#f4d7a2" font-family="Arial,sans-serif" font-size="20" letter-spacing="4">A FESTIVE MOMENT TO SHARE</text>
+  <path d="M320 720q130 85 260 0l-25 85H345Z" fill="#d98936" stroke="#ffd078" stroke-width="4"/>
+  <path d="M380 714q70-30 0-118 125 57 70 120 65-43 84-105 30 78 0 112" fill="#ffd778"/>
+  <path d="M420 750h60" stroke="#fff1c8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M245 858h410" stroke="#e5ad59" stroke-width="2"/>
+  <text x="450" y="925" text-anchor="middle" fill="#fff3df" font-family="Georgia,serif" font-size="30">Wishing you a joyful celebration.</text>
+  <text x="450" y="990" text-anchor="middle" fill="#e1c49a" font-family="Arial,sans-serif" font-size="16" letter-spacing="4">INDEPENDENT WEBSITE CONCEPT</text>
+</svg>

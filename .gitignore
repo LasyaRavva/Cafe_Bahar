@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+qa-evidence/
+reference-assets/
+coverage/
+*.log
+.env*
+!.env.example
