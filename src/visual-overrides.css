@@ -342,4 +342,153 @@
   .menu-group-heading h2 {
     font-size: 23px;
   }
+
+  /* Keep the menu controls close at hand and show more dishes per screen. */
+  .menu-banner {
+    min-height: 0;
+    padding: 35px 6% 28px;
+    gap: 14px;
+  }
+
+  .menu-banner h1 {
+    margin: 14px 0 8px;
+    font-size: clamp(44px, 13vw, 60px);
+  }
+
+  .menu-banner > div > p:last-child {
+    max-width: 28rem;
+    line-height: 1.55;
+  }
+
+  .menu-banner-aside {
+    display: flex;
+    gap: 8px;
+    padding-top: 10px;
+  }
+
+  .menu-banner-aside > span:last-child {
+    display: none;
+  }
+
+  .menu-banner-aside strong {
+    font: 600 12px 'DM Sans', sans-serif;
+    color: #e4b66f;
+  }
+
+  .menu-banner-aside strong small {
+    font: inherit;
+  }
+
+  .menu-content {
+    padding: 22px 5% 54px;
+  }
+
+  .menu-disclaimer {
+    display: block;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+  }
+
+  .menu-disclaimer summary {
+    color: #805a2e;
+    font-size: 11px;
+    line-height: 1.45;
+    cursor: pointer;
+  }
+
+  .menu-disclaimer p {
+    margin: 8px 0 0;
+  }
+
+  .menu-tools {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 5px;
+  }
+
+  .menu-tools > p {
+    justify-self: end;
+    max-width: 100%;
+    font-size: 10px;
+    line-height: 1.3;
+    white-space: normal;
+    text-align: right;
+  }
+
+  .menu-search {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .menu-search input {
+    min-width: 0;
+  }
+
+  .menu-filters {
+    position: sticky;
+    top: 66px;
+    z-index: 4;
+    margin: 10px -5.5% 20px;
+    padding: 8px 5.5%;
+    background: #f5f1e9;
+    border-bottom: 1px solid #ded6c9;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .menu-filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menu-page .filter {
+    min-height: 38px;
+    padding: 8px 12px;
+    font-size: 11px;
+  }
+
+  .menu-groups {
+    gap: 26px;
+  }
+
+  .menu-group-heading {
+    margin-bottom: 8px;
+  }
+
+  .menu-group-heading h2 {
+    margin: 0;
+    font-size: 21px;
+  }
+
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 14px;
+  }
+
+  .menu-item {
+    min-width: 0;
+    align-items: flex-start;
+    gap: 7px;
+    padding: 9px 0;
+  }
+
+  .menu-item h3 {
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .menu-item strong {
+    font-size: 11px;
+  }
+
+  .menu-footer-note {
+    margin-top: 28px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 380px) {
+  .menu-items {
+    grid-template-columns: 1fr;
+  }
 }

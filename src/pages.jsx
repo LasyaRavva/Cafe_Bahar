@@ -244,12 +244,12 @@ export function MenuPage() {
         </div>
       </section>
       <section className="section menu-content">
-        <div className="menu-disclaimer">
-          <strong>Concept reference</strong>
+        <details className="menu-disclaimer">
+          <summary>Concept reference · check current prices and availability</summary>
           <p>
             Prices are transcribed from the fuller menu pages you supplied. Other menu photos show different amounts, so these may be outdated; confirm current prices and availability with the restaurant before publishing. “MRP” items are marked as shown in the photos.
           </p>
-        </div>
+        </details>
         <div className="menu-tools">
           <label className="menu-search">
             <Search size={17} />

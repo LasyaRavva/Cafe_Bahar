@@ -1135,12 +1135,14 @@ a:focus-visible,button:focus-visible {
   padding:18px 21px;
   margin-bottom:28px
 }
-.menu-disclaimer strong {
+.menu-disclaimer strong,.menu-disclaimer summary {
   white-space:nowrap;
   color:#805a2e;
-  font:16px 'Playfair Display',serif
+  font:16px 'Playfair Display',serif;
+  cursor:pointer
 }
 .menu-disclaimer p {
+  flex:1;
   margin:0;
   color:#746c60;
   font-size:11px;
